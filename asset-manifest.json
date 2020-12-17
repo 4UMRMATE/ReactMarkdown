@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactMarkdown/static/css/main.7a1a3633.chunk.css",
+    "main.js": "/ReactMarkdown/static/js/main.d1f392a7.chunk.js",
+    "main.js.map": "/ReactMarkdown/static/js/main.d1f392a7.chunk.js.map",
+    "runtime-main.js": "/ReactMarkdown/static/js/runtime-main.05299dad.js",
+    "runtime-main.js.map": "/ReactMarkdown/static/js/runtime-main.05299dad.js.map",
+    "static/js/2.38e5a6ed.chunk.js": "/ReactMarkdown/static/js/2.38e5a6ed.chunk.js",
+    "static/js/2.38e5a6ed.chunk.js.map": "/ReactMarkdown/static/js/2.38e5a6ed.chunk.js.map",
+    "static/js/3.23e533cc.chunk.js": "/ReactMarkdown/static/js/3.23e533cc.chunk.js",
+    "static/js/3.23e533cc.chunk.js.map": "/ReactMarkdown/static/js/3.23e533cc.chunk.js.map",
+    "index.html": "/ReactMarkdown/index.html",
+    "static/css/main.7a1a3633.chunk.css.map": "/ReactMarkdown/static/css/main.7a1a3633.chunk.css.map",
+    "static/js/2.38e5a6ed.chunk.js.LICENSE.txt": "/ReactMarkdown/static/js/2.38e5a6ed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05299dad.js",
+    "static/js/2.38e5a6ed.chunk.js",
+    "static/css/main.7a1a3633.chunk.css",
+    "static/js/main.d1f392a7.chunk.js"
+  ]
+}
