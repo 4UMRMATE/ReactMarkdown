@@ -1,0 +1,70 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #c78b38;
+}
+
+.textField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35vw;
+  height: 35vh;
+  margin: 2.5% 0;
+  background-color: #c5c5c5;
+  border: 2px solid black;
+}
+
+.textField #editor {
+  width: 35vw;
+  height: 35vh;
+}
+
+.liveView {
+  width: 75%;
+  min-height: 75vh;
+  margin-bottom: 5%;
+  border: 5px dotted black;
+}
+
+.liveView .bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 4vh;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+}
+
+.liveView #preview {
+  width: 75%;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,46 @@
+.ToolBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ToolBar > * {
+  padding: 5px 15px;
+}
+
+.ToolBar > .main {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  /* background-color: red; */
+}
+
+.ToolBar > .usefull {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  /* background-color: blue; */
+}
+
+.ToolBar > .lists {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  /* background-color: pink; */
+}
+
+.main > *,
+.usefull > *,
+.lists > * {
+  cursor: pointer;
+}
+
+.expand {
+  margin-left: 50px;
+}
+
+.expand:hover {
+  color: red;
+}

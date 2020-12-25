@@ -1,0 +1,68 @@
+.ToolBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.ToolBar > * {
+  padding: 5px 15px;
+}
+
+.ToolBar > .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 10%;
+  /* background-color: red; */
+}
+
+.ToolBar > .usefull {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+  /* background-color: blue; */
+}
+
+.ToolBar > .lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 10%;
+  /* background-color: pink; */
+}
+
+.main > *,
+.usefull > *,
+.lists > * {
+  cursor: pointer;
+}
+
+.expand {
+  margin-left: 50px;
+}
+
+.expand:hover {
+  color: red;
+}
+/*# sourceMappingURL=ToolBar.css.map */
